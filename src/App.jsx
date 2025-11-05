@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from './components/Hero';
 import Features from './components/Features';
 import HowItWorks from './components/HowItWorks';
+import Editor from './components/Editor';
 import CTA from './components/CTA';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Hero />
       <Features />
       <HowItWorks />
+      <Editor />
       <CTA />
       <footer className="border-t border-white/10 bg-slate-950 py-10 text-center text-sm text-white/60">
         <p>
